@@ -35,6 +35,7 @@ You are now done!
 - [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy)
 - [kitty-snazzy](https://github.com/connorholyday/kitty-snazzy)
 - [vim-snazzy](https://github.com/connorholyday/vim-snazzy)
+- [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
 
 ## License
 MIT © [Daniel Florescu](190405.xyz)
