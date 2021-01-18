@@ -25,5 +25,16 @@ $ make install clean
 4. Done! <br/>
 You are now done!
 
+## Related
+- [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
+- [terminal-snazzy](https://github.com/sindresorhus/terminal-snazzy)
+- [konsole-snazzy](https://github.com/miedzinski/konsole-snazzy)
+- [vscode-snazzy](https://github.com/Tyriar/vscode-snazzy)
+- [emacs-snazzy](https://github.com/weijiangan/emacs-snazzy)
+- [termite-snazzy](https://github.com/kbobrowski/termite-snazzy)
+- [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy)
+- [kitty-snazzy](https://github.com/connorholyday/kitty-snazzy)
+- [vim-snazzy](https://github.com/connorholyday/vim-snazzy)
+
 ## License
 MIT © [Daniel Florescu](190405.xyz)
