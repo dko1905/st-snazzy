@@ -5,12 +5,23 @@
 ![screenshot of terminal](screenshot.png)
 
 ## Install
-
 1. Clone st from suckless.
-2. Apply patch. [http://suckless.org/hacking/](http://suckless.org/hacking/)
+```sh
+$ git clone git://git.suckless.org/st
+```
+2. Apply patch.
+Copy st-snazzy.patch into st folder, and run the following command.
+```sh
+$ git apply st-snazzy.patch
+```
 3. Compile and/or install.
+Here is how to then compile and install st from source, just remember to have all the dependencies.
+```
+$ make
+$ make install clean
+```
 4. Done!
+You are now done!
 
 ## License
-
-MIT © [Daniel Florescu](www.190405.xyz)
+MIT © [Daniel Florescu](190405.xyz)
