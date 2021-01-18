@@ -5,24 +5,24 @@
 ![screenshot of terminal](screenshot.png)
 
 ## Install
-1. Clone st from suckless.
+1. Clone st from suckless. <br/>
 ```sh
 $ git clone git://git.suckless.org/st
 ```
-2. Apply patch.
+2. Apply patch. <br/>
 Copy st-snazzy.patch into st source folder, and run the following command.
 ```sh
 $ cp st-snazzy.patch /where/you/have/st/source
 $ cd /where/you/have/st/source
 $ git apply st-snazzy.patch
 ```
-3. Compile and/or install.
+3. Compile and/or install. <br/>
 Here is how to then compile and install st from source, just remember to have all the dependencies.
 ```
 $ make
 $ make install clean
 ```
-4. Done!
+4. Done! <br/>
 You are now done!
 
 ## License
