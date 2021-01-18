@@ -10,8 +10,10 @@
 $ git clone git://git.suckless.org/st
 ```
 2. Apply patch.
-Copy st-snazzy.patch into st folder, and run the following command.
+Copy st-snazzy.patch into st source folder, and run the following command.
 ```sh
+$ cp st-snazzy.patch /where/you/have/st/source
+$ cd /where/you/have/st/source
 $ git apply st-snazzy.patch
 ```
 3. Compile and/or install.
