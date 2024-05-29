@@ -5,25 +5,29 @@
 ![screenshot of terminal](screenshot.png)
 
 ## Install
-1. Clone st from suckless. <br/>
+1. Clone st from suckless
 ```sh
-$ git clone git://git.suckless.org/st
+git clone git://git.suckless.org/st
+cd st
 ```
-2. Apply patch. <br/>
-Copy st-snazzy.patch into st source folder, and run the following command.
+
+2. Download patch
 ```sh
-$ cp st-snazzy.patch /where/you/have/st/source
-$ cd /where/you/have/st/source
-$ git apply st-snazzy.patch
+wget https://raw.githubusercontent.com/dko1905/st-snazzy/master/st-snazzy.patch -O st-snazzy.patch
+# or
+curl https://raw.githubusercontent.com/dko1905/st-snazzy/master/st-snazzy.patch -o st-snazzy.patch
 ```
-3. Compile and/or install. <br/>
-Here is how to then compile and install st from source, just remember to have all the dependencies.
+
+3. Apply patch
+```sh
+git apply st-snazzy.patch
 ```
-$ make
-$ make install clean
+
+4. Compile (and install)
+```sh
+make
+make install clean
 ```
-4. Done! <br/>
-You are now done!
 
 ## Related
 - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
@@ -39,3 +43,4 @@ You are now done!
 
 ## License
 MIT © [Daniel Florescu](190405.xyz)
+
